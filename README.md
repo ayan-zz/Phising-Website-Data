@@ -35,7 +35,29 @@ Features:
 'Statistical_report',
 'Result'
 
-Detail of feature is available at: "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Farchive.ics.uci.edu%2Fml%2Fmachine-learning-databases%2F00327%2FPhishing%2520Websites%2520Features.docx&wdOrigin=BROWSELINK"
+Detail of feature is available at [here](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Farchive.ics.uci.edu%2Fml%2Fmachine-learning-databases%2F00327%2FPhishing%2520Websites%2520Features.docx&wdOrigin=BROWSELINK)
+
+#Data Ingestion 
+From local system. Data format .arff type.
+[Datalink](https://archive.ics.uci.edu/ml/machine-learning-databases/00327/)
+
+###Importing necessary modules and libraries:
+'''
+import pandas as pd
+from scipy.io import arff
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline
+import warnings
+warnings.filterwarnings('ignore')
+'''
+###Loading and Reading the file and storing in a panda DataFrame
+'''
+dff=arff.loadarff('Training Dataset.arff')
+d1=pd.DataFrame(dff[0])
+d1.head()
+'''
 
 
 # Scope
