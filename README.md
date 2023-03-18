@@ -138,13 +138,11 @@ Now df_one dataset has modified dataset forfurther execution.
 
 From research paper we get to know that the data has been grouped into 04 types of main feature characteristics as per the behaviour and location. They are :
 
-*1.1. Address Bar based Features
+* 1.1. Address Bar based Features
+* 1.2. Abnormal Based Features
+* 1.3. HTML and JavaScript based Features
+* 1.4. Domain based Features
 
-*1.2. Abnormal Based Features
-
-*1.3. HTML and JavaScript based Features
-
-*1.4. Domain based Features
 
 
 
