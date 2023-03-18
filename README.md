@@ -196,3 +196,5 @@ Plotting multivariate data like URL_Length, Links_in_tags, web_traffic, URL_of_A
 
 ### 4. URL_of_Anchor: Almost no contradiction found for phising data type of Url of Anchor. Around 27% of suspicious type data are found to be phising type. Where as rest are legitimate. Again below 5% data are found contradicting with legitimate type web_traffic feature.
 
+### ---------TASK 2: TRAINING AND PREDICTION USING ML ALgos----------------------------------------------
+### ---------To be continued-----------------------------------------------------------------------------
