@@ -117,6 +117,34 @@ b'0' ---> Suspicious
 
 b'1' ---> Legitimate
 
+### Replacing the string like objects into numerical values: 0,1,2
+
+![image](https://user-images.githubusercontent.com/64850346/226088318-25bca0fc-8d2c-48bd-9a6e-b0729396263a.png)
+
+Now all data are conveted into numerical values of 0,1 or 2
+
+### Using pandas.get_dummy for dummy encoding and transformation of data of multivariate type to bivariate.
+![image](https://user-images.githubusercontent.com/64850346/226088655-60bbf597-5f1f-49d5-bab1-3afc5bc643d7.png)
+On careful observation we will see that the bivariate data are encoded into univariate datas with 2 features.
+We will consider a single observation of the univariate data, this will explain the use of bivariate data (0/1) in a single column.
+
+Dropping un-necessary dummy variables from the dataset.
+
+![image](https://user-images.githubusercontent.com/64850346/226089298-7202ccc8-fad7-4103-9ce5-e6faa9e562f5.png)
+
+![image](https://user-images.githubusercontent.com/64850346/226089326-e54d89a3-bf98-47f2-95d0-ec618df79dfd.png)
+
+Now df_one dataset has modified dataset forfurther execution.
+
+From research paper we get to know that the data has been grouped into 04 types of main feature characteristics as per the behaviour and location. They are :
+
+*1.1. Address Bar based Features
+*1.2. Abnormal Based Features
+*1.3. HTML and JavaScript based Features
+*1.4. Domain based Features
+
+
+
 
 
 
