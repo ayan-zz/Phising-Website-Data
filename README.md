@@ -79,18 +79,38 @@ It is seen from the data set that the feature variable are having object data ty
 * b'0'
 * b'1'
 
-![image](https://user-images.githubusercontent.com/64850346/226087901-9d7ff786-467c-4d31-8041-10131eec7e0f.png)
-
 # EDA AND FEATURE ENGINEERING
 
 ### Check for null values:
 
 ![image](https://user-images.githubusercontent.com/64850346/226088030-df0dedd6-c07d-47a3-bb0d-e4cfdb9d5e85.png)
+
 No null or nan type values are available. Data is clean
 
+### Check for type of data types within the dataset
 
+![image](https://user-images.githubusercontent.com/64850346/226087901-9d7ff786-467c-4d31-8041-10131eec7e0f.png)
 
-# Scope
+NO numerical values within the dataset 
+
+## Assumptions
+
+![image](https://user-images.githubusercontent.com/64850346/226088212-6fbdb7fb-f990-4e23-8f0e-615566527432.png)
+
+From the research paper it is found to be true that:
+1. 1220 URLs lengths equals to 54 or more which constitute 48.8% of the total dataset size.
+2. From URL_Anchor feature, we derive,
+    Rule: IF {
+      % of URL Of Anchor <31% → 𝐿𝑒𝑔𝑖𝑡𝑖𝑚𝑎𝑡𝑒
+      % of URL Of Anchor ≥31% And≤67% → Suspicious 
+      Otherwise→ Phishing
+}
+
+By approximation on % of feature variable distribution, we get:
+b'-1' ---> Phising
+b'0' ---> Suspicious
+b'1' ---> Legitimate
+
 
 
 
