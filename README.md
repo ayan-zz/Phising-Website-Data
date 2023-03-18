@@ -1,7 +1,7 @@
-# upload-pages-artifact
+# Phishing Websites Features
+One of the challenges faced by our research was the unavailability of reliable training datasets. In fact, this challenge faces any researcher in the field. However, although plenty of articles about predicting phishing websites using data mining techniques have been disseminated these days, no reliable training dataset has been published publically, maybe because there is no agreement in literature on the definitive features that characterize phishing websites, hence it is difficult to shape a dataset that covers all possible features.
 
-A composite Action for packaging and uploading artifact that can be deployed to [GitHub Pages][pages].
-
+In this article, we shed light on the important features that have proved to be sound and effective in predicting phishing websites. In addition, we proposed some new features, experimentally assign new rules to some well-known features and update some other features.
 # Scope
 
 ⚠️ Official support for building Pages with Actions is in public beta at the moment.
