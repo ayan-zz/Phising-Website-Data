@@ -79,6 +79,17 @@ It is seen from the data set that the feature variable are having object data ty
 * b'0'
 * b'1'
 
+![image](https://user-images.githubusercontent.com/64850346/226087901-9d7ff786-467c-4d31-8041-10131eec7e0f.png)
+
+# EDA AND FEATURE ENGINEERING
+
+### Check for null values:
+
+![image](https://user-images.githubusercontent.com/64850346/226088030-df0dedd6-c07d-47a3-bb0d-e4cfdb9d5e85.png)
+No null or nan type values are available. Data is clean
+
+
+
 # Scope
 
 
