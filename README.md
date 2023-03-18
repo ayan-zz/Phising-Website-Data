@@ -142,8 +142,27 @@ From research paper we get to know that the data has been grouped into 04 types 
 * 1.2. Abnormal Based Features
 * 1.3. HTML and JavaScript based Features
 * 1.4. Domain based Features
+```
 
-
+#HTML and JavaScript based Features
+df_html=pd.DataFrame(df_one,columns=['Redirect_2','on_mouseover_1','RightClick_1','popUpWidnow_1', 'Iframe_1'])
+#Abnormal Based Features
+df_abnormal=pd.DataFrame(df_one,columns=['Request_URL_1','URL_of_Anchor_0','URL_of_Anchor_1', 'URL_of_Anchor_2', 'Links_in_tags_0',
+       'Links_in_tags_1', 'Links_in_tags_2', 'SFH_0', 'SFH_1', 'SFH_2',
+       'Submitting_to_email_1', 'Abnormal_URL_1'])
+#Address Bar based Features
+df_address=pd.DataFrame(df_one,columns=['having_IP_Address_1', 'URL_Length_0', 'URL_Length_1', 'URL_Length_2',
+       'Shortining_Service_1', 'having_At_Symbol_1',
+       'double_slash_redirecting_1', 'Prefix_Suffix_1', 'having_Sub_Domain_0',
+       'having_Sub_Domain_1', 'having_Sub_Domain_2', 'SSLfinal_State_0',
+       'SSLfinal_State_1', 'SSLfinal_State_2', 'Domain_registeration_length_1',
+       'Favicon_1', 'port_1', 'HTTPS_token_1'])
+#Domain based Features
+df_domain=pd.DataFrame(df_one,columns=['age_of_domain_1', 'DNSRecord_1', 'web_traffic_0', 'web_traffic_1',
+       'web_traffic_2', 'Page_Rank_1', 'Google_Index_1','Links_pointing_to_page_0', 'Links_pointing_to_page_1',
+       'Links_pointing_to_page_2', 'Statistical_report_1'])
+     
+```
 
 
 
