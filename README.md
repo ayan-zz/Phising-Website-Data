@@ -69,7 +69,7 @@ d1.head()
 print(d1.shape)
 ```
 (11055, 31)
-```
+
 The column or feature variables are:
 ![image](https://user-images.githubusercontent.com/64850346/226087610-785134b1-77d7-4d77-8c94-7d7fb4be7844.png)
 
