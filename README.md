@@ -2,9 +2,45 @@
 One of the challenges faced by our research was the unavailability of reliable training datasets. In fact, this challenge faces any researcher in the field. However, although plenty of articles about predicting phishing websites using data mining techniques have been disseminated these days, no reliable training dataset has been published publically, maybe because there is no agreement in literature on the definitive features that characterize phishing websites, hence it is difficult to shape a dataset that covers all possible features.
 
 In this article, we shed light on the important features that have proved to be sound and effective in predicting phishing websites. In addition, we proposed some new features, experimentally assign new rules to some well-known features and update some other features.
+Features:
+'having_IP_Address', 
+'URL_Length', 
+'Shortining_Service',
+'having_At_Symbol',
+'double_slash_redirecting', 
+'Prefix_Suffix',
+'having_Sub_Domain',
+'SSLfinal_State',
+'Domain_registeration_length',
+'Favicon', 
+'port', 
+'HTTPS_token', 
+'Request_URL', 
+'URL_of_Anchor',
+'Links_in_tags', 
+'SFH', 
+'Submitting_to_email', 
+'Abnormal_URL',
+'Redirect', 
+'on_mouseover', 
+'RightClick', 
+'popUpWidnow', 
+'Iframe',
+'age_of_domain',
+'DNSRecord',
+'web_traffic', 
+'Page_Rank',
+'Google_Index',
+'Links_pointing_to_page', 
+'Statistical_report',
+'Result'
+
+Detail of feature is available at: "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Farchive.ics.uci.edu%2Fml%2Fmachine-learning-databases%2F00327%2FPhishing%2520Websites%2520Features.docx&wdOrigin=BROWSELINK"
+
+
 # Scope
 
-⚠️ Official support for building Pages with Actions is in public beta at the moment.
+
 
 # Usage
 
