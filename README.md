@@ -166,9 +166,27 @@ df_domain=pd.DataFrame(df_one,columns=['age_of_domain_1', 'DNSRecord_1', 'web_tr
        'Links_pointing_to_page_2', 'Statistical_report_1'])
      
 ```
+Plotting the same in seaborn:
+
+![image](https://user-images.githubusercontent.com/64850346/226093724-71f8ab9a-9b67-44eb-9f61-78e2fb974d8b.png)
+
+From the distribution it is evident to find some categories which are dominatng the main features.
+
+Plotting multivariate data like URL_Length, Links_in_tags, web_traffic, URL_of_Anchor with the target variable 'Result'
+
 ![image](https://user-images.githubusercontent.com/64850346/226090633-6f11e459-72ba-466a-8e0a-2bd50eb03aeb.png)
 
 ![image](https://user-images.githubusercontent.com/64850346/226090674-67312ce3-7d4f-4fb4-a0a5-6b48d64e9ce5.png)
+
+## Observations:
+
+### 1. Url_length vs Result : Almost 55% of phising URL_Length are considered legitimate by target column. Around 40% phising URL_length are true to be phising data. About 45% of legitimate URL_Length data are considered phising. Suspicious type data are too minimum. 
+
+### 2. Links_in_tags vs Result: Over 60% of phising Links_in_tags are considered as true to be phising. Round 38% data which are considered suspicious are true to be phising type. Below 45% data are phising for legitimate links
+
+### 3. Web_Traffic vs Result: Phising data are equally distributed in phising and suspicious data types of Web_Traffic. Whereas for legitimate datas only about 27% data are contradicting to be phising.
+
+### 4. URL_of_Anchor: Almost no contradiction found for phising data type of Url of Anchor. Around 27% of suspicious type data are found to be phising type. Where as rest are legitimate. Again below 5% data are found contradicting with legitimate type web_traffic feature.
 
 
 
