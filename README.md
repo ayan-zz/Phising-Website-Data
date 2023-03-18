@@ -57,11 +57,13 @@ warnings.filterwarnings('ignore')
 
 
 ### Loading and Reading the file and storing in a panda DataFrame
-'''
+```
 dff=arff.loadarff('Training Dataset.arff')
 d1=pd.DataFrame(dff[0])
 d1.head()
-'''
+
+```
+![image](https://user-images.githubusercontent.com/64850346/226087332-e30d54e8-921e-44a1-b3af-a40ae948d254.png)
 
 
 # Scope
