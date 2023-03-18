@@ -2,7 +2,7 @@
 
 
 # Introduction:
-A phishing website is a domain similar in name and appearance to an official website. They're made in order to fool someone into believing it is legitimate. The objective of this project is to perform EDA and feature engineering techniques in Task 1 and train machine learning models on the dataset created to predict phishing websites in Task 2. The datast is gathered from [UCI ML repo] (https://archive.ics.uci.edu/ml/datasets/Phishing+Websites). 
+A phishing website is a domain similar in name and appearance to an official website. They're made in order to fool someone into believing it is legitimate. The objective of this project is to perform EDA and feature engineering techniques in Task 1 and train machine learning models on the dataset created to predict phishing websites in Task 2. The datast is gathered from [UCI ML repo](https://archive.ics.uci.edu/ml/datasets/Phishing+Websites). 
 
 ## Phishing Websites Features
 One of the challenges faced by our research was the unavailability of reliable training datasets. In fact, this challenge faces any researcher in the field. However, although plenty of articles about predicting phishing websites using data mining techniques have been disseminated these days, no reliable training dataset has been published publically, maybe because there is no agreement in literature on the definitive features that characterize phishing websites, hence it is difficult to shape a dataset that covers all possible features.
