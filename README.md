@@ -65,6 +65,19 @@ d1.head()
 ```
 ![image](https://user-images.githubusercontent.com/64850346/226087332-e30d54e8-921e-44a1-b3af-a40ae948d254.png)
 
+```
+print(d1.shape)
+```
+(11055, 31)
+```
+The column or feature variables are:
+![image](https://user-images.githubusercontent.com/64850346/226087610-785134b1-77d7-4d77-8c94-7d7fb4be7844.png)
+
+It is seen from the data set that the feature variable are having object data type which are classsified as:
+
+* b'-1'
+* b'0'
+* b'1'
 
 # Scope
 
